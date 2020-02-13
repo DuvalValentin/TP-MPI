@@ -97,3 +97,9 @@ RUN chown tutorial:tutorial /home/tutorial/command-postprocess.sh
 #---------------------------------------------------------------
 
 RUN export LD_LIBRARY_PATH=/usr/lib/openmpi/lib/
+
+#---------------------------------------------------------------
+#Adding code files
+#---------------------------------------------------------------
+ADD Matrix_Convolution.py
+ADD 2020-01-29-ExamCCN.py
